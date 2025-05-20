@@ -32,7 +32,7 @@ jobs:
           hugo-version: '0.137.0'	# 获取指定版本的hugo
 
       - name: Build 
-        run: hugo         	# 使用 hugo 构建静态网页
+        run: hugo         	# 使用 hugo 构建静态网页 
 
       - name: Deploy To Bioit-top                       # 部署至当前仓库的其他分支
         uses: peaceiris/actions-gh-pages@v3             # 一个自动发布github pages的action
